@@ -1,0 +1,4 @@
+nicebank\Steps.class
+RunTest.class
+step_definitions\Boardsteps.class
+nicebank\Steps$Account.class
