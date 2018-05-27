@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="RunTest" time="0.83" errors="0" skipped="4">
+<testsuite tests="24" failures="0" name="RunTest" time="0.042" errors="0" skipped="20">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="src/test/resources/features/cash_withdrawal.feature"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
     <property name="java.vm.version" value="25.151-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -46,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=src/test/resources/features/cash_withdrawal.feature"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,17 +66,68 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: " name="Given a board like this:" time="0.166">
+  <testcase classname="|  |  |  |  |" name="Given I have  in my account" time="0.007">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: " name="When player x plays in row 2, column 1" time="0.166">
+  <testcase classname="|  |  |  |  |" name="When I choose to withdraw the fixed amount of " time="0.007">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: " name="Then the board should look like this:" time="0.166">
+  <testcase classname="|  |  |  |  |" name="Then I should receive  cash" time="0.007">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: " name="Scenario: " time="0.166">
+  <testcase classname="|  |  |  |  |" name="And the balance of my account should be " time="0.007">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: " name="Scenario: " time="0.166"/>
+  <testcase classname="|  |  |  |  |" name="|  |  |  |  |" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="|  |  |  |  |" time="0.007"/>
+  <testcase classname="|  |  |  |  |" name="Given I have  in my account" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="When I choose to withdraw the fixed amount of " time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="Then I should receive  cash" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="And the balance of my account should be " time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="|  |  |  |  |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="|  |  |  |  |" time="0"/>
+  <testcase classname="|  |  |  |  |" name="Given I have  in my account" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="When I choose to withdraw the fixed amount of " time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="Then I should receive  cash" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="And the balance of my account should be " time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="|  |  |  |  |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="|  |  |  |  |" time="0"/>
+  <testcase classname="|  |  |  |  |" name="Given I have  in my account" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="When I choose to withdraw the fixed amount of " time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="Then I should receive  cash" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="And the balance of my account should be " time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="|  |  |  |  |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="|  |  |  |  |" name="|  |  |  |  |" time="0"/>
 </testsuite>
